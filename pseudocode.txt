@@ -1,0 +1,15 @@
+START
+    PROMPT user to enter a score
+    IF score is between 70 and 100
+        DISPLAY "Grade: A"
+    ELSE IF score is between 60 and 69
+        DISPLAY "Grade: B"
+    ELSE IF score is between 50 and 59
+        DISPLAY "Grade: C"
+    ELSE IF score is between 45 and 49
+        DISPLAY "Grade: D"
+    ELSE IF score is between 40 and 44
+        DISPLAY "Grade: E"
+    ELSE
+        DISPLAY "Grade: F"
+END
